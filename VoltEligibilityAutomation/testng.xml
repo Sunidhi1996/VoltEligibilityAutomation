@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Volt Eligibility Test Suite" parallel="false">
+    <test name="Eligibility Tests">
+        <classes>
+            <class name="tests.EligibilityTests"/>
+            <class name="tests.UITests"/>
+        </classes>
+    </test>
+</suite>
